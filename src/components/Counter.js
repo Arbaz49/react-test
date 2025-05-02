@@ -16,7 +16,6 @@ const Counter = () => {
                 <CustomBtn onClick={decrement}>Decrement</CustomBtn>
             </div>
 
-           
         </div>
     );
 };
