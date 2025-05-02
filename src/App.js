@@ -9,6 +9,7 @@ function App() {
   return (
  <CounterProvider>
   <div 
+  testId="app"
    style={{display: "flex", flexDirection: "column", alignItems: "center",justifyContent:"center", height: "100vh",width:"100%"}}
   >
 
