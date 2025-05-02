@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { CounterContext } from '../context/CounterContext';
 const Counter = () => {
     const {count, setCount} = useContext(CounterContext);
-
     const increment = () => setCount(count + 1);
     const decrement = () => setCount(count - 1);
 
