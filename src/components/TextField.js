@@ -27,8 +27,6 @@ const MyTextField = styled(TextField)(({ theme }) => ({
     borderRadius: "25px",
     backgroundColor: "rgba(255, 255, 255, 0.5)",
     margin: "25px",
-  
-    // Apply to the root of the OutlinedInput
     "& .MuiOutlinedInput-root": {
       boxSizing: "border-box",
       borderRadius: "12px",
@@ -38,16 +36,14 @@ const MyTextField = styled(TextField)(({ theme }) => ({
         border: "1px solid black",
         height: "100%",
       },
-  
-      // Ensure the input itself respects full width
+
       "& input": {
         width: "100%",
         boxSizing: "border-box",
         height:"100%",
       },
     },
-  
-    // Style when focused
+
     "& .MuiOutlinedInput-root.Mui-focused fieldset": {
       border: "1px solid black",
     },
