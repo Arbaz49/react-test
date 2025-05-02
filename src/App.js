@@ -12,10 +12,7 @@ function App() {
   testId="app"
    style={{display: "flex", flexDirection: "column", alignItems: "center",justifyContent:"center", height: "100vh",width:"100%"}}
   >
-
-<span>
-React Test 1
-</span>
+<span>React Test</span>
 <TextField
   placeholder="Enter text"
   value={value}
