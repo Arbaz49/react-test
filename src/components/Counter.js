@@ -21,7 +21,7 @@ const Counter = () => {
 };
 
 
-const CustomBtn=styled("button")(()=>{
+export const CustomBtn=styled("button")(()=>{
     return {
         width: "100px",
         height: "44px",
