@@ -11,6 +11,16 @@ const Header = () => {
             <Link to="/Todo" style={{ color: 'white', textDecoration: 'none' }}>
             Todo
             </Link>
+
+            <Link to="/pagination" style={{ color: 'white', textDecoration: 'none' }}>
+            Pagination
+            </Link>
+            <Link to="/search" style={{ color: 'white', textDecoration: 'none' }}>
+            search
+            </Link>
+            <Link to="/counter-usereducer" style={{ color: 'white', textDecoration: 'none' }}>
+            useReducer
+            </Link>
         </header>
     );
 };
