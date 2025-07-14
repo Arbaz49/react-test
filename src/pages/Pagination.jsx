@@ -20,7 +20,7 @@ const Pagination = () => {
                     return <div key={ele}>{ele}</div>
                 })
             }
-            <button disabled={currentPage==1} onClick={() => {
+            <button disabled={currentPage===1} onClick={() => {
                 setCurrentPage(currentPage - 1)
             }}>prev</button>
             <button disabled={currentPage===pageCount} onClick={() => {
